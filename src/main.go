@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/Shashank-1993/completeGoProj/docs" // This is important for swagger to recognize the docs
     ginSwagger "github.com/swaggo/gin-swagger"
-    "github.com/swaggo/gin-swagger/swaggerFiles"
+    swaggerFiles "github.com/swaggo/files"
 )
 
 func main(){
