@@ -1,8 +1,17 @@
 {
+    "schemes": [
+        "http",
+        "https"
+    ],
     "swagger": "2.0",
     "info": {
-        "contact": {}
+        "description": "This is a sample server.",
+        "title": "Integration API",
+        "contact": {},
+        "version": "1.0"
     },
+    "host": "localhost:8080",
+    "basePath": "/api/v1",
     "paths": {
         "/ready": {
             "get": {
@@ -14,7 +23,7 @@
                     "application/json"
                 ],
                 "tags": [
-                    "health"
+                    "readyCheck"
                 ],
                 "summary": "Ready API",
                 "responses": {
